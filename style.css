@@ -148,6 +148,37 @@ section {
     margin: 10px;
 }
 
+/* About Section */
+#about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+    color: whitesmoke;
+    background-color: #194e48;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box; 
+}
+#pic{
+    display: flex;
+}
+#pic img{
+    width: 575px;
+    height: 400px;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+}
+#intro h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
 .projects {
     background-color: #000016;
 }
